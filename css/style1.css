@@ -1,0 +1,75 @@
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.owl-carousel .trainercard {
+    width: 20em;
+    height: 90%;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+    margin: 0 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.owl-carousel .trainercard-img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid rgb(83, 6, 6);
+    box-shadow: 0 0 2em;
+    padding: 3px;
+    margin-bottom: 2em;
+}
+
+.owl-carousel .trainercard-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.owl-carousel .trainercard-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+    display: block; 
+}
+
+.owl-carousel .trainercard-name {
+    color: rgb(83, 6, 6);
+    display: block; 
+    margin-top: .5em; 
+}
+
+.owl-carousel .trainercard-text {
+    font-size: 1.1rem;
+    margin: 1em 0;
+    color: rgb(94, 93, 93);
+}
+
+.owl-carousel .trainercard-button {
+    background-color: rgb(83, 6, 6);
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.owl-carousel .trainercard-button:hover {
+    transform: scale(1.1);
+    background-color: rgba(83, 6, 6, 0.833); 
+}

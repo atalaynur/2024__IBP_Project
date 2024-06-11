@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Nunito',sans-serif;
+        margin: 0;
+    }  
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 40px;
+    line-height: 90px;
+    color:rgb(119, 10, 65);
+    float: left;
+}
+
+#logo2 {
+    font-size: 40px;
+    line-height: 90px;
+    color:rgb(119, 10, 65);
+    float: left; 
+    transform: translateX(-203px);
+  }
+  
+
+nav {
+    line-height: 100px;
+    flex-grow: 1;
+    display: flex;
+    justify-content:center;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: rgb(119, 10, 65); 
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:rgb(119, 10, 65);
+}
+
+#anasayfa{
+    height: 650px;
+    background-image: url("../img/001.jpeg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment : fixed;
+}
+#black{
+    height: 650px;
+    background-color: black;
+    opacity: 0.25;
+
+}
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Temel stil */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#hakkimizda {
+    padding: 50px;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 55px;
+    color: rgb(119, 10, 65);
+    text-shadow: 0px 1px 1px black;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#left {
+    margin-right: 50px;
+}
+
+#left-image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+#right {
+    display: flex;
+    flex-direction: row; /* Yatayda hizalama */
+    justify-content: space-between; /* Aralarında boşluk bırakma */
+    align-items: center;
+}
+
+#box1, #box2 {
+    height:auto;
+    background-color: #fff7fc;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: calc(50% - 10px); /* Kutuların genişliği ve aralarındaki boşluk */
+    margin-right: 20px; /* Aralarında boşluk bırakmak için */
+}
+
+#box2 {
+    margin-right: 0; /* Son kutunun sağ tarafında boşluk olmaması için */
+}
+
+h5{
+    font-size: 20px;
+    color: white;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #image {
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  #text-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #text-box-item {
+    background-color: #f2f2f2;
+    padding: 1rem;
+  }
+
+  
+
+
+
+  /* Hakkımızda kısmı başlangıç*/
+
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#hakkimizda {
+    padding: 50px;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 55px;
+    color: rgb(119, 10, 65);
+    text-shadow: 0px 1px 1px rgb(119, 10, 65)3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#left {
+    margin-right: 50px;
+}
+
+#left-image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+#right {
+    display: flex;
+    flex-direction: row; /* Yatayda hizalama */
+    justify-content: space-between; /* Aralarında boşluk bırakma */
+    align-items: center;
+}
+
+#box1, #box2 {
+    height:auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: calc(50% - 10px); /* Kutuların genişliği ve aralarındaki boşluk */
+    margin-right: 20px; /* Aralarında boşluk bırakmak için */
+}
+
+#box2 {
+    margin-right: 0; /* Son kutunun sağ tarafında boşluk olmaması için */
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(119, 10, 65);
+}
+
+/* Hakkımızda kısmı bitiş*/
+/* açılır buton*/
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgb(119, 10, 65);
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: rgb(119, 10, 65)3;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(119, 10, 65);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(119, 10, 65)3;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: rgb(119, 10, 65);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* açılır buton*/
+
+
+/*Sağa Sola kayan  Psikologlar kısmı Başlangıç*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sağa Sola kayan  Psikologlar kısmı bitiş*/
+
+
